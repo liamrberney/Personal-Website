@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href = "css/bootstrap.min.css">
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href = "/css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href = "css/styles.css">
+
+</head>
+
+<body>
+    
+    <!-- ==================== Start Header Area ==========================   -->
+
+    <header class="header_area">
+        <div class="main-menu">
+            <nav id = 'navbar' class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <!--<a class="navbar-brand" href="#">Liam</a>-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link" href="about.html">About</a>
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                      <a class="nav-link" href="qualifications.html">Qualifications</a>
+                      <a class="nav-link" href="service.html">Service</a>
+                      <a onclick="change()" class="nav-link" href="#">Toggle Darkmode</a>
+
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!-- ==================== End Header Area ============================   -->
+
+    <!-- ==================== Start Main Area ============================   -->
+
+    <main class="site-main">
+        <!-- ==================== Start BannerArea ============================   -->
+        <section class="site-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 site-title">
+                        <h3 class="title-text">Howdy!</h3>
+                        <h1 class="title-text text-uppercase">I'm Liam Berney</h1>
+                        <h4 class="title-text text-uppercase">Honors Computer Science Major</h4>
+                        <h4 class="title-text text-uppercase">Class of '23</h4>
+                        <h4 style="padding-top: 20px;"></h4>
+                        <div class="site-buttons">
+                            <div class="d-flex flex-row flex-wrap">
+                                <a class="btn button primary-button mr-4" href = "https://www.linkedin.com/in/liam-berney-a31310191/"> My Linkedin</a>
+                                <a class="btn button secondary-button text-upprcase" href = "https://docs.google.com/document/d/1EkSPn8jud6BJSU-OiqRIX43xazjpZGNVJAAOOVctR94/edit?usp=sharing">Get CV</a>
+                            </div>
+                        </div>
+                        <h4 class = "title-text" style="padding-top: 30px;"></h4>
+                        <h4 class = "title-text" style="padding-bottom: 20px;">Learn more by visiting my <a href="about.html">about</a> page </h4>
+                        <h4 class = "title-text">Contact Me:</h4>
+                        <p class="para">
+                            Name: Liam Berney
+                        </p>
+
+                        <p class="para">
+                            Email:   <a href="mailto: liamrberney@tamu.edu">liamrberney@tamu.edu</a>
+                        </p>
+
+                        <p class="para">
+                            Phone: +1 (832)-708-7854
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-12 banner-image"> 
+                        <img class="d-none d-sm-block img-fluid" src="assets/personalImage.jpg" style = "margin-top: 10%";><!-- Image to show on screens from small to extra large -->
+                        <img class="d-sm-none img-fluid" src="assets/personalImage.jpg" style="margin-top: 20%; width: 100%">--><!-- Image to show on extra small screen (mobile portrait) -->
+                        <!--<img src="assets/personalImage.jpg" alt="me" class="img-fluid" style = "margin-top: 10%; ">-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==================== End Banner Area ============================   -->
+    </main>
+    <!-- ==================== End Main Area ==============================   -->
+
+    <!-- Jquery js -->
+    <script src = "js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="js/toggle.js"></script>
+    
+</body>
+</html>

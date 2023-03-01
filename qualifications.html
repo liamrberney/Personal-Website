@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href = "css/bootstrap.min.css">
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="/css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href = "css/styles.css">
+
+</head>
+
+<body>
+    
+    <!-- ==================== Start Header Area ==========================   -->
+
+    <header class="header_area">
+        <div class="main-menu">
+            <nav id = 'navbar' class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div ></div>
+                    <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link active" href="qualifications.html">Qualifications</a>
+                    <a class="nav-link" href="service.html">Service</a>
+                    <a onclick="change()" class="nav-link" href="#">Toggle Darkmode</a>
+                    
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!-- ==================== End Header Area ============================   -->
+
+    <!-- ==================== Start Main Area ============================   -->
+
+    <main class="site-main">
+    <!-- ==================== Start Portfolio Area ============================   -->
+    <section class="about-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <div class="about-image">
+                        <img src="assets/main_background.jpg" alt="" class="d-none d-sm-block img-fluid" style= "margin-bottom: 10%;">
+                    </div>
+                </div>
+                    
+                <div class="col-lg-7 col-md-12 about-title">
+                    <h2 class="text-uppercase">
+                        <h1 class="title-text text-uppercase" style="font-size: 2.5rem;">Why I'm Qualified</h1>
+                    </h2>
+                    
+                    <div class="paragrapy py-2 ">
+                        <h3 class="title-text" style="font-size: 2.2rem;">My Work Experience</h3>
+                        <p class="para">
+                            I spent the summer of 2021 working for the Houston-based steel distributor <a href="https://www.sss-steel.com/">Triple-S steel.</a>
+                        </p>
+                        <p class="para">
+                            The projects listed on my portfolio page and resume are a part of what I worked on during this time.
+                        </p>
+                        <p class="para">
+                            This company was largely a Microsoft shop, so I gained a lot of experience with C# .Net, Microsoft Dynamics, and SQL Server.
+                        </p>
+                         
+                        <h3 class="title-text" style="font-size: 2.2rem;">Technical Skills</h3>
+                        <p class="para">
+                            I've used Oauth tokens and URL queries to gather data from <a href="https://dynamics.microsoft.com/en-us/finance/overview/">Dynamics 365 Finance and Operations</a>, using its REST API with <a href="https://www.postman.com/">Postman.</a>
+                        </p>
+                        <p class="para">
+                            I've also used <a href="https://powerbi.microsoft.com/en-us/">Microsoft Power BI</a> and to view entities and construct queries for Microsoft Dynamics and SQL Server.
+                        </p>                 
+                        <p class="para">
+                            Between classes, work, and personal projects I've worked with many programming languages, including everything from PHP to Haskell.
+                        </p>
+                    </div>
+                    <!--<a class="btn button primary-button text-upprcase" style="margin-bottom: 10%;" href = "https://docs.google.com/document/d/1EkSPn8jud6BJSU-OiqRIX43xazjpZGNVJAAOOVctR94/edit?usp=sharing">Get CV</a>
+                    <iframe class = "d-none d-sm-block" src="https://docs.google.com/document/d/e/2PACX-1vRwwulXF0GeaYi-VITOg0KQIFJkFIy90fCPxD5yd7FhIux9PmfI77WoGzyyViYDYcasQ4zXlVDCmpvK/pub?embedded=true" 
+                    height= "1000px" width= "900px" ></iframe>-->
+                </div>
+                <img src="assets/main_background.jpg" alt="" class="d-sm-none img-fluid" style= "margin-bottom: 10%;">
+                
+            </div>
+        </div>
+    </section>
+    <!-- ==================== End Portfolio Area ============================   -->
+    </main>
+    <!-- ==================== End Main Area ==============================   -->
+
+    <!-- Jquery js -->
+    <script src = "js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+     <!-- custom js -->
+     <script src="js/toggle.js"></script>
+    
+</body>
+</html>

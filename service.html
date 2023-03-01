@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href = "css/bootstrap.min.css">
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="/css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href = "css/styles.css">
+
+</head>
+
+<body>
+    
+    <!-- ==================== Start Header Area ==========================   -->
+
+    <header class="header_area">
+        <div class="main-menu">
+            <nav id = 'navbar' class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div ></div>
+                    <div class="navbar-nav">
+                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link" href="about.html">About</a>
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                      <a class="nav-link" href="qualifications.html">Qualifications</a>
+                      <a class="nav-link active" href="service.html">Service</a>
+                      <a onclick="change()" class="nav-link" href="#">Toggle Darkmode</a>
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!-- ==================== End Header Area ============================   -->
+
+    <!-- ==================== Start Main Area ============================   -->
+
+    <main class="site-main">
+        <!-- ==================== Start Service Area ============================   -->
+        <section class="about-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-10">
+                        <div class="about-image">
+                            <img src="assets/bonfire.jpg" alt="" class="d-none d-sm-block img-fluid">
+                        </div>
+                    </div>
+                        
+                    <div class="col-lg-7 col-md-12 about-title">
+                        <h2 class="text-uppercase ">
+                            <h1 class="title-text text-uppercase" style="font-size: 2.5rem;">Service</h1>
+    
+                        </h2>
+                        
+                        <div class="paragrapy py-1 w-75">
+                            <hr>
+                            <h3 class="title-text">Eagle Scout</h3>
+                            <h4 class="title-text" style="font-size: 1.5rem;"><a href="https://www.scouting.org/"><i>Scouts BSA</i></a></h4>
+                            <p class="para">
+                                Earned highest BSA Rank with silver and gold palms, and served as senior patrol leader, the highest youth leadership position, for my troop.
+                                Organized meetings, campouts, and other events.
+                            <hr>
+    
+                            <h3 class="title-text">Eagle Scout Project</h3>
+                            <h4 class="title-text" style="font-size: 1.5rem;"><a href="https://angelahouse.org/"><i>Angela House</i></a></h4>
+                            <p class="para">
+                                Designed and built new storage system for Angela House using Google Sketchup.
+                            <hr>
+    
+                            <h3 class="title-text">Undergraduate Recruiter</h3>
+                            <h4 class="title-text" style="font-size: 1.5rem;"><a href="https://texags.com/s/41140/student-bonfire-already-in-full-swing-months-away-from-burn-night"><i>Aggie Student Bonfire</i></a></h4>
+                            <p class="para">
+                                Recruited and provided rides for freshmen in the Aggie Bonfire student organization, and
+                                helped build the 2019 and 2020 Aggie Bonfires.
+                            </p>
+                            <hr>
+    
+    
+                        </div>
+                        <div class="about-image">
+                            <img src="assets/bonfire.jpg" alt=""  class="d-sm-none img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==================== End Service Area ============================   -->
+    </main>
+    <!-- ==================== End Main Area ==============================   -->
+
+    <!-- Jquery js -->
+    <script src = "js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="js/toggle.js"></script>
+    
+</body>
+</html>

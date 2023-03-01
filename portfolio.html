@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href = "css/bootstrap.min.css">
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="/css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href = "css/styles.css">
+
+</head>
+
+<body>
+    
+    <!-- ==================== Start Header Area ==========================   -->
+
+    <header class="header_area">
+        <div class="main-menu">
+            <nav id = 'navbar' class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div ></div>
+                    <div class="navbar-nav">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="qualifications.html">Qualifications</a>
+                    <a class="nav-link" href="service.html">Service</a>
+                    <a onclick="change()" class="nav-link" href="#">Toggle Darkmode</a>
+                    
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!-- ==================== End Header Area ============================   -->
+
+    <!-- ==================== Start Main Area ============================   -->
+
+    <main class="site-main">
+    <!-- ==================== Start Portfolio Area ============================   -->
+    <section class="about-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-4">
+                    <div class="about-image" style="padding-top: 2rem; ">
+                        <a href="https://www.sss-steel.com/"><img src="assets/Triple-S-Logo.png" alt="" class="d-none d-sm-block img-fluid"></a>
+                    </div>
+                    <div class="about-image">
+                        <a href="https://www.linkedin.com/in/liam-berney-a31310191/"><img src="assets/linkedin-logo.png" alt="" class="d-none d-sm-block img-fluid"></a>
+
+                    </div>
+                    <div class="about-image">
+                        <a href="https://github.com/liamrberney"><img src="assets/GitHub_Logo.png" alt="" class="d-none d-sm-block img-fluid"></a>
+ 
+                    </div>
+                    <div class="about-image">
+                        <a class="d-none d-sm-block img-fluid" href="https://stackexchange.com/users/4466338">
+                            <img src="https://stackexchange.com/users/flair/4466338.png" width="100%"></a>
+
+                    </div>
+                </div>
+                    
+                <div class="col-lg-8     col-md-12 about-title">
+                    <h2 class="text-uppercase">
+                        <h1 class="d-none d-sm-block title-text text-uppercase" style="font-size: 2.5rem;">My Projects</h1>
+                        <h1 class="d-sm-none title-text text-uppercase" style="font-size: 2.5;">My Projects</h1>
+
+                    </h2>
+                    <div class="paragraphy py-3 w-75">
+                        
+                        <h1 class="d-none d-sm-block title-text text-uppercase" style="font-size: 2rem;">Task Scheduler Editor</h1>
+                        <h1 class="d-sm-none title-text text-uppercase" style="font-size: 2rem;">Task Scheduler Editor</h1>
+                        <h4 class="title-text" style="font-size: 1.5rem;"><i>C#, ASP.NET MVC, Javascript, HTML, CSS</i></h4>
+                        <p class="para">
+                            Designed and implemented hierarchical file manager for windows tasks using C# and Web UI.
+                        <hr>
+
+                        <h1 class="d-none d-sm-block title-text text-uppercase" style="font-size: 2rem;">AISC Label Conversion</h1>
+                        <h1 class="d-sm-none title-text text-uppercase" style="font-size: 2rem;">AISC Label Conversion</h1>   
+                        <h4 class="title-text" style="font-size: 1.5rem;"><i>C#, D365 API, Relational Databases, File IO</i></h4>
+                        <p class="para">
+                            Matched AISC Labels to ERP products and updated production database with results.
+                        <hr>
+
+                        <h1 class="d-none d-sm-block title-text text-uppercase" style="font-size: 2rem;">Triple-S Customer Mobile Portal</h1>
+                        <h1 class="d-sm-none title-text text-uppercase" style="font-size: 2rem;">Triple-S Customer Mobile Portal</h1>
+                        <h4 class="title-text" style="font-size: 1.5rem;"><i>REST APIs</i></h4>
+                        <p class="para">
+                            Created a mobile app for tracking sales orders and geolocating nearby customers and warehouses. Gathered data from D365 ERP and Google Maps with the Microsoft Power Platform.
+                        </p>
+                        <hr>
+
+
+                    </div>
+                    <a class="btn button primary-button text-upprcase" style="margin-bottom: 10%;" href = "https://docs.google.com/document/d/1EkSPn8jud6BJSU-OiqRIX43xazjpZGNVJAAOOVctR94/edit?usp=sharing">Get CV</a>
+                </div>
+
+                <!-- Image links on mobile -->
+                <div class="about-image">
+                    <a href="https://www.sss-steel.com/"><img class="d-sm-none img-fluid" src="assets/Triple-S-Logo.png" style="width: 80%"></a><!-- Image to show on extra small screen (mobile portrait) -->
+                </div>
+                <div class="about-image">
+                    <a href="https://www.linkedin.com/in/liam-berney-a31310191/"><img class="d-sm-none img-fluid" src="assets/linkedin-logo.png" style="width: 80%"></a><!-- Image to show on extra small screen (mobile portrait) -->
+                </div>
+                <div class="about-image">
+                    <a href="https://github.com/liamrberney"><img class="d-sm-none img-fluid" src="assets/GitHub_Logo.png" style="width: 80%"></a><!-- Image to show on extra small screen (mobile portrait) -->
+                </div>
+                <div class="about-image">
+                    <a class="d-sm-none img-fluid" href="https://stackexchange.com/users/4466338">
+                        <img src="https://stackexchange.com/users/flair/4466338.png" width="80%"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==================== End Portfolio Area ============================   -->
+    </main>
+    <!-- ==================== End Main Area ==============================   -->
+
+    <!-- Jquery js -->
+    <script src = "js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+     <!-- custom js -->
+     <script src="js/toggle.js"></script>
+</body>
+</html>

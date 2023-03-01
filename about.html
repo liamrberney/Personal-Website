@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href = "css/bootstrap.min.css">
+    <!-- fontawesome icons -->
+    <link rel="stylesheet" href="/css/all.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href = "css/styles.css">
+
+</head>
+
+<body>
+    
+    <!-- ==================== Start Header Area ==========================   -->
+
+    <header class="header_area">
+        <div class="main-menu">
+            <nav id = 'navbar' class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div ></div>
+                    <div class="navbar-nav">
+                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                      <a class="nav-link active" href="about.html">About</a>
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                      <a class="nav-link" href="qualifications.html">Qualifications</a>
+                      <a class="nav-link" href="service.html">Service</a>
+                      <a onclick="change()" class="nav-link" href="#">Toggle Darkmode</a>
+                      
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <!-- ==================== End Header Area ============================   -->
+
+    <!-- ==================== Start Main Area ============================   -->
+
+    <main class="site-main">
+        <!-- ==================== Start About Area ============================   -->
+        <section class="about-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="about-image">
+                            <img src="assets/about.jpg" alt="" class="d-none d-sm-block img-fluid">
+                        </div>
+                    </div>
+                        
+                    <div class="col-lg-8 col-md-12 about-title">
+                        <h1 class="title-text text-uppercase" style="font-size: 2.5rem;">Let me Introduce myself!</h1>
+                        
+                        <div class="paragrapy py-2 w-75">
+                            <p class="parabout">
+                                Howdy! My name is Liam Berney.
+                            </p>
+                            <p class="parabout">
+                               I'm a Junior Honors Computer Science student with a minor in Cybersecurity. I'm also a violist in the Aggie Orchestra and 
+                               a lumberjack for Aggie Bonfire. I've taken courses in Data Structures and Algorithms, Programming Languages, Computer Design,
+                               Discrete Math, Cybersecurity Law, Multivariate Calculus, and Statistics, and 
+                               I'm currently taking Introduction to Operating Systems, Analysis of Algorithms, and Programming studio 
+                               as a part of my coursework. 
+                            </p>
+
+                            <p class="parabout">
+                                I was born and raised in Houston, Texas, and I've been interested in computers pretty much all my life, getting kicked off the living room tax-machine for as long as I can remember.
+                                When I was 13, I saved enough money to buy the parts to build my very own computer, and I was on it constantly, tinkering with the machine.
+                                In the meantime, I spent most of my time at school waiting until programming or robotics club would start, and was finally able to do
+                                Computer Science for real once I got to college. 
+                            </p>
+
+                            <p class="parabout">
+                                In terms of work experience, I've worked as a lifeguard, cashier, and most recently as a Software Engineering Intern at Triple-S Steel.
+                                I learned a lot while I was there, like how to write code in C#, frameworks like ASP.NET Model-View-Controller, and how to interact with
+                                clients during a Software project. I experienced maintaining and improving other people's code, as well as designing programs and writing my own.
+                                I got to talk to users about the projects I was working on and make changes based on that feedback, and I loved being thanked for the changes I made,
+                                or the tool I wrote to make someone's job a little bit easier.
+                                And while I'm not entirely sure what I want to do with the rest of my career, I've become fairly skilled with relational databases,
+                                and am planning on working in Data Science once I graduate.
+                            </p>
+                            
+                            
+                            <p class="parabout">
+                                If you'd like to reach out, please feel free to contact me!
+                            </p>
+
+                            <p class="parabout">
+                                Name: Liam Berney
+                            </p>
+
+                            <p class="parabout">
+                                Email:   <a href="mailto: liamrberney@tamu.edu">liamrberney@tamu.edu</a>
+                            </p>
+
+                            <p class="parabout">
+                                Phone: +1 (832)-708-7854
+                            </p>
+                        </div>
+                        <a class="btn button primary-button text-upprcase" style="margin-bottom: 10%;"  href = "https://docs.google.com/document/d/1EkSPn8jud6BJSU-OiqRIX43xazjpZGNVJAAOOVctR94/edit?usp=sharing">Get CV</a>
+                        <div class="about-image">
+                            <img src="assets/about.jpg" alt=""  class="d-sm-none img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==================== End About Area ============================   -->
+    </main>
+    <!-- ==================== End Main Area ==============================   -->
+
+    <!-- Jquery js -->
+    <script src = "js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="js/toggle.js"></script>
+    
+</body>
+</html>
